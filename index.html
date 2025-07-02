@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jonathan Isidro Juan Granados | Portafolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    /* Estilo para la descripción de la sección apps */
+    .apps-description {
+      margin-top: 15px;
+      margin-bottom: 40px; /* espacio debajo para separar del carrusel */
+      font-size: 1.1rem;
+      line-height: 1.5;
+      color: #cccccc;
+      white-space: pre-line; /* respetar saltos de línea */
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+<body>
+  <img src="img/JonaChibi.png" alt="Jonathan Chibi Avatar" class="fixed-avatar" />
+  <button class="lang-toggle" id="langBtn">EN</button>
+
+  <div class="container">
+    <!-- 🔹 Header -->
+    <header class="hero">
+      <div class="content">
+        <h1>Jonathan Isidro Juan Granados</h1>
+        <p data-es="Artista 3D | Modelado | Animación<br>Renders | Aplicaciones Interactivas"
+           data-en="3D Artist | Modeling | Animation<br>Renders | Interactive Apps">
+           3D Artist | Modeling | Animation<br>Renders | Interactive Apps
+        </p>
+      </div>
+      <div class="hero-img">
+        <img src="img/JonaChibi.png" alt="Astronauta 3D" class="responsive-avatar" />
+      </div>
+    </header>
+
+    <!-- 🔹 Portafolio -->
+<section class="portfolio">
+  <h2 data-es="Portafolio 3D" data-en="3D Portfolio">3D Portfolio</h2>
+  <div class="portfolio-grid">
+
+    <a href="https://drive.google.com/drive/folders/1-0gbOeyZ-vMDUD8zOyEcOO-QzUt2SXok?usp=drive_link" target="_blank" class="image-card">
+      <img src="img/3DModels.png" alt="3D_Models">
+      <div class="overlay">
+        <div class="overlay-text"
+          data-es="Colección de assets 3D como personajes, entornos y props, mostrando habilidades de modelado y texturizado."
+          data-en="A collection of 3D assets including characters, environments, and props, showcasing modeling skills and texturing techniques">
+          A collection of 3D assets including characters, environments, and props, showcasing modeling skills and texturing techniques
+        </div>
+      </div>
+    </a>
+
+    <a href="https://drive.google.com/drive/folders/1-TnQ7pm7fXxAYaGYo1Q_0z_qmnCpuW6t?usp=drive_link" target="_blank" class="image-card">
+      <img src="img/Renders.png" alt="Special Renders">
+      <div class="overlay">
+        <div class="overlay-text"
+          data-es="Renders creativos y de alta calidad con diseños únicos."
+          data-en="Creative and high-quality renders featuring unique designs.">
+          Creative and high-quality renders featuring unique designs.
+        </div>
+      </div>
+    </a>
+
+    <a href="https://drive.google.com/drive/folders/1qrJtFkUuMeK-Kgy4b3gGC7nCDpHkrwfN?usp=drive_link" target="_blank" class="image-card">
+      <img src="img/animations.png" alt="animations">
+      <div class="overlay">
+        <div class="overlay-text"
+          data-es="Explora animaciones clave desarrolladas para proyectos individuales."
+          data-en="Explore key animation assets developed for individual projects.">
+          Explore key animation assets developed for individual projects.
+        </div>
+      </div>
+    </a>
+
+    <a href="https://drive.google.com/drive/folders/1-FUuTaSDi6A6xbDWCdNWGD7o_Y_fKoby?usp=drive_link" target="_blank" class="image-card">
+      <img src="img/Videos.png" alt="Videos">
+      <div class="overlay">
+        <div class="overlay-text"
+          data-es="Videos de proyectos donde he colaborado en el desarrollo, tanto para empresas como de forma individual."
+          data-en="Videos from projects I’ve worked on, both for companies and as an independent creator.">
+          Explore key animation assets developed for individual projects.
+        </div>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+    <!-- 🔹 Carrusel de Proyectos -->
+    <section class="apps">
+      <h2 data-es="Apps / Proyectos Interactivos" data-en="Apps / Interactive Projects">Apps / Interactive Projects</h2>
+
+      <p class="apps-description"
+         data-es="Esta sección incluye aplicaciones interactivas y proyectos 3D en tiempo real donde he trabajado tanto de forma independiente como colaborando con estudios o empresas.
+          Mis aportes incluyen modelado 3D, efectos visuales, integración de assets y pulido visual en apps, videojuegos y plataformas educativas.
+          Etiquetas: Colaboración con estudios · Proyectos freelance · Trabajo interactivo personal"
+         data-en="This section includes interactive applications and real-time 3D projects where I contributed either independently or under professional studios.
+          My roles included 3D modeling, visual effects, asset integration, and visual polish for apps, games, and educational platforms.
+          Tags: Studio collaboration · Freelance projects · Personal interactive work">
+        This section includes interactive applications and real-time 3D projects where I contributed either independently or under professional studios.
+        My roles included 3D modeling, visual effects, asset integration, and visual polish for apps, games, and educational platforms.
+        Tags: Studio collaboration · Freelance projects · Personal interactive work
+      </p>
+
+      <div class="carousel-container">
+        <button class="carousel-btn prev">❮</button>
+        <div class="carousel-track">
+          <div class="carousel-item">
+            <video src="videos/video1.mp4" controls muted></video>
+          </div>
+          <div class="carousel-item">
+            <video src="videos/video2.mp4" controls muted></video>
+          </div>
+          <div class="carousel-item">
+            <video src="videos/video3.mp4" controls muted></video>
+          </div>
+        </div>
+        <button class="carousel-btn next">❯</button>
+      </div>
+    </section>
+
+    <!-- 🔹 Sobre mí y contacto -->
+    <section class="about-contact">
+      <div class="about">
+        <h2 data-es="Sobre mí" data-en="About Me">About Me</h2>
+        <p data-es="Soy un artista 3D apasionado especializado en modelado, animación y narrativa visual. 
+        Mi trabajo combina precisión técnica con visión creativa, ya sea creando modelos detallados, animaciones inmersivas o diseñando aplicaciones interactivas.
+        Disfruto transformar ideas en experiencias visuales atractivas, siempre enfocándome en calidad, originalidad y comunicación clara. 
+        He trabajado en diversos proyectos desde visualización de productos hasta contenido interactivo, y siempre estoy listo para nuevos retos que expandan mis límites creativos.
+        ¡Creemos algo increíble juntos!"
+        data-en="I'm a passionate 3D artist specialized in modeling, animation, and visual storytelling. 
+        My work blends technical precision with creative vision, whether I'm building detailed models, crafting immersive animations, or designing interactive applications. 
+        I enjoy turning ideas into engaging visual experiences, always focusing on quality, originality, and clear communication. 
+        I’ve worked on a variety of projects ranging from product visualizations to interactive content, and I’m always looking forward to new challenges that push my creative boundaries. Let’s create something awesome together.">
+          I'm a passionate 3D artist specialized in modeling, animation, and visual storytelling...
+        </p>
+      </div>
+
+      <div class="contact">
+        <h2 data-es="Contacto" data-en="Contact">Contact</h2>
+        <a href="mailto:jonathanisidro13@gmail.com">jonathanisidro13@gmail.com</a>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/jonathan-isidro-juan-granados-399014367?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" /></a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jonathanisidro13@gmail.com"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/maildotru.svg" alt="Email" /></a>
+          <a href="https://www.instagram.com/jonajg4?igsh=YzljYTk1ODg3Zg== "><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram" /></a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- 🔹 Scripts -->
+  <script>
+    // Carrusel
+    const track = document.querySelector('.carousel-track');
+    const prevBtn = document.querySelector('.carousel-btn.prev');
+    const nextBtn = document.querySelector('.carousel-btn.next');
+    let currentIndex = 0;
+
+    const updateCarousel = () => {
+      const width = track.clientWidth;
+      track.style.transform = `translateX(-${currentIndex * width}px)`;
+    };
+
+    nextBtn.addEventListener('click', () => {
+      const items = document.querySelectorAll('.carousel-item');
+      currentIndex = (currentIndex + 1) % items.length;
+      updateCarousel();
+    });
+
+    prevBtn.addEventListener('click', () => {
+      const items = document.querySelectorAll('.carousel-item');
+      currentIndex = (currentIndex - 1 + items.length) % items.length;
+      updateCarousel();
+    });
+
+    window.addEventListener('resize', updateCarousel);
+
+    // Cambio de idioma
+    const langBtn = document.getElementById("langBtn");
+    let currentLang = "en";
+
+    langBtn.addEventListener("click", () => {
+      currentLang = currentLang === "en" ? "es" : "en";
+      langBtn.textContent = currentLang.toUpperCase();
+
+      const elements = document.querySelectorAll("[data-en][data-es]");
+      elements.forEach(el => {
+        el.innerHTML = el.getAttribute(`data-${currentLang}`);
+      });
+    });
+  </script>
+</body>
+</html>
